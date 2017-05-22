@@ -10,6 +10,8 @@ import Form from 'react-bootstrap/lib/Form';
 import Col from 'react-bootstrap/lib/Col';
 import Row from 'react-bootstrap/lib/Row';
 import Panel from 'react-bootstrap/lib/Panel';
+import MessageBox from './MessageBox.jsx';
+
 
 class Main extends React.Component {
 
@@ -88,6 +90,9 @@ class Main extends React.Component {
             </div>
          </div>
          </Col>
+        <Col xs={4}>
+          <MessageBox />
+        </Col>
       </div>
     );
   }
