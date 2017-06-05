@@ -29,7 +29,7 @@ Try it online! (Warning! Slow.) http://130.211.140.178:10110
        
        
 ## WALKTHROUGH
-![Authentication](https://raw.github.com/petosa/codeu_project_2017/blob/master/screenshots/Authentication.png)
+![Authentication](https://github.com/petosa/codeu_project_2017/edit/master/README.md)
 
 ## FEATURES
 ### REST API
