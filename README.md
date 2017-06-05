@@ -28,6 +28,10 @@ Try it online! (Warning! Slow.) http://130.211.140.178:10110
        and then connect to http://localhost:8000 to see the web client and start using the messenger locally.
        
        
+## WALKTHROUGH
+![Authentication](https://raw.github.com/petosa/codeu_project_2017/screenshots/Authentication.png)
+
+
 ## FEATURES
 ### REST API
 We needed a REST API in order to talk to our server from a web server. This change is completely documented in terms of code changes in comments and in terms of functionality in our wiki's API documentation.
@@ -64,10 +68,6 @@ Cure: Changed Integer.parseInt to (int) Long.parseLong.
 Issue: when hosting on Google's server, web server hangs and does not respond to any requests.
 Diagnosis: When Google's relay server is down, the timeline gets clogged and blocks any other requests from passing through. The result is a hanging server/
 Cure: Completely removed Relay from my application (see commented out block in Server.java). It was only causing problems, and I value reliability.
-
-## RUN THROUGH
-![Landing Page](/../screenshots/codeu_project_2017/screenshots/Landing Page.png)
-
 
 ## ENVIRONMENT
 
