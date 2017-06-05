@@ -26,7 +26,10 @@ Try it online! (Warning! Slow.) http://130.211.140.178:10110
        $ bash run_server.sh 16 16 8000 persistent
        ```
        and then connect to http://localhost:8000 to see the web client and start using the messenger locally.
-       
+
+## WALKTHROUGH
+![Authentication](/screenshots/Authentication.png?raw=true "Auth")
+
        
 ## FEATURES
 ### REST API
@@ -64,8 +67,6 @@ Cure: Changed Integer.parseInt to (int) Long.parseLong.
 Issue: when hosting on Google's server, web server hangs and does not respond to any requests.
 Diagnosis: When Google's relay server is down, the timeline gets clogged and blocks any other requests from passing through. The result is a hanging server/
 Cure: Completely removed Relay from my application (see commented out block in Server.java). It was only causing problems, and I value reliability.
-
-
 
 ## ENVIRONMENT
 
