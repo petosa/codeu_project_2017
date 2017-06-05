@@ -66,7 +66,7 @@ Diagnosis: When Google's relay server is down, the timeline gets clogged and blo
 Cure: Completely removed Relay from my application (see commented out block in Server.java). It was only causing problems, and I value reliability.
 
 ## RUN THROUGH
-![Authentication](/../screenshots/screenshots/Authentication.png?raw=true "Google or Anonymous Auth Login")
+![Landing Page](/../screenshots/codeu_project_2017/screenshots/Landing Page.png)
 
 
 ## ENVIRONMENT
