@@ -29,8 +29,10 @@ Try it online! (Warning! Slow.) http://130.211.140.178:10110
        
        
 ## WALKTHROUGH
+![Landing Page](https://github.com/petosa/codeu_project_2017/blob/master/screenshots/Landing%20Page.png)
 ![Authentication](https://github.com/petosa/codeu_project_2017/blob/master/screenshots/Authentication.png)
-![Test Status](https://travis-ci.org/realm/SwiftLint.svg?branch=master)
+![View Threads Before Choosing Chat Room](https://github.com/petosa/codeu_project_2017/blob/master/screenshots/View%20Threads.png)
+![Message Interface](https://github.com/petosa/codeu_project_2017/blob/master/screenshots/Messaging%20Interface.png)
 
 
 ## FEATURES
