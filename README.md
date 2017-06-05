@@ -28,7 +28,7 @@ Try it online! (Warning! Slow.) http://130.211.140.178:10110
        and then connect to http://localhost:8000 to see the web client and start using the messenger locally.
 
 ## WALKTHROUGH
-![Authentication](/screenshots/Authentication.png?raw=true "Auth")
+![Authentication](codeu_project_2017/screenshots/Authentication.png)
 
        
 ## FEATURES
