@@ -65,6 +65,8 @@ Issue: when hosting on Google's server, web server hangs and does not respond to
 Diagnosis: When Google's relay server is down, the timeline gets clogged and blocks any other requests from passing through. The result is a hanging server/
 Cure: Completely removed Relay from my application (see commented out block in Server.java). It was only causing problems, and I value reliability.
 
+## RUN THROUGH
+![Authentication](/../screenshots/screenshots/Authentication?raw=true "Google or Anonymous Auth Login")
 
 
 ## ENVIRONMENT
